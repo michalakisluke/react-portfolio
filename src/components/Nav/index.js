@@ -19,16 +19,16 @@ function Nav(props) {
             <nav>
                 <ul>
                     <li>
-                        <a href="#about-me" onClick={() => setCurrentNav('about-me'), displayNav}>About</a>    
+                        <a href="#about-me" onClick={() => { setCurrentNav('about-me'); displayNav();}}>About</a>    
                     </li>
                     <li>
-                        <a href="#projects" onClick={() => setCurrentNav('projects'), displayNav}>Projects</a>
+                        <a href="#projects" onClick={() => { setCurrentNav('projects'); displayNav();}}>Projects</a>
                     </li>
                     <li>
-                        <a href="#contact" onClick={() => setCurrentNav('contact'), displayNav}>Contact</a>
+                        <a href="#contact" onClick={() => { setCurrentNav('contact'); displayNav();}}>Contact</a>
                     </li>
                     <li>
-                        <a href="#resume" onClick={() => setCurrentNav('resume'), displayNav}>Resume</a>
+                        <a href="#resume" onClick={() => { setCurrentNav('resume'); displayNav();}}>Resume</a>
                     </li>
                 </ul>
             </nav>
