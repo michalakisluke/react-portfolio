@@ -42,6 +42,7 @@ function Portfolio() {
                     title={title}
                     description={description}
                     link={link}
+                    key={title}
                 />
             })}
         </section>
