@@ -1,6 +1,13 @@
 import React from "react";
 
-function Nav() {
+function Nav(props) {
+
+    const {
+        nav = [],
+        currentNav,
+        setCurrentNav
+    } = props
+
     return(
         <header>
             <h2>
@@ -9,16 +16,16 @@ function Nav() {
             <nav>
                 <ul>
                     <li>
-                        <a href="#about-me">About</a>    
+                        <a href="#about-me" onClick={() => setCurrentNav(nav)}>About</a>    
                     </li>
                     <li>
-                        <a href="#projects">Projects</a>
+                        <a href="#projects" onClick={() => setCurrentNav(nav)}>Projects</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#contact" onClick={() => setCurrentNav(nav)}>Contact</a>
                     </li>
                     <li>
-                        <a href="#resume">Resume</a>
+                        <a href="#resume" onClick={() => setCurrentNav(nav)}>Resume</a>
                     </li>
                 </ul>
             </nav>
