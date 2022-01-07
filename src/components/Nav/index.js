@@ -22,7 +22,7 @@ function Nav(props) {
                         <a href="#about-me" onClick={() => { setCurrentNav('about-me'); displayNav();}}>About</a>    
                     </li>
                     <li>
-                        <a href="#projects" onClick={() => { setCurrentNav('projects'); displayNav();}}>Projects</a>
+                        <a href="#projects" onClick={() => { setCurrentNav('portfolio'); displayNav();}}>Portfolio</a>
                     </li>
                     <li>
                         <a href="#contact" onClick={() => { setCurrentNav('contact'); displayNav();}}>Contact</a>

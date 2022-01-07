@@ -3,7 +3,7 @@ import './App.css';
 import About from './components/About'
 import Nav from './components/Nav';
 import Resume from './components/Resume'
-import Projects from './components/Projects'
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer'
 import Contact from './components/Contact'
 
@@ -20,8 +20,8 @@ function App() {
         return <Contact />
       case 'resume':
         return <Resume />
-      case 'projects':
-        return <Projects />
+      case 'portfolio':
+        return <Portfolio />
     }
   };
 
