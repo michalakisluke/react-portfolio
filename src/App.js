@@ -12,20 +12,32 @@ function App() {
 
   const [currentNav, setCurrentNav] = useState('about-me');
 
+  const pageRender = () => {
+    switch (currentNav) {
+      case 'about-me':
+        return <About />
+      case 'contact':
+        return <Contact />
+      case 'resume':
+        return <Resume />
+      case 'projects':
+        return <Projects />
+    }
+  };
+
   return (
-    <div>
+    <main>
       <Nav
         currentNav={currentNav}
         setCurrentNav={setCurrentNav}
       ></Nav>
-      <main>
-        <About></About>
-        <Projects></Projects>
-        <Contact></Contact>
-        <Resume></Resume>
-        <Footer></Footer>
-      </main>
-    </div>
+      <div>
+        {
+          pageRender(currentNav)
+        }
+      </div>
+      <Footer />
+    </main>
   );
 }
 
