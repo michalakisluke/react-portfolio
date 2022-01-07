@@ -33,16 +33,16 @@ function Portfolio() {
             description: 'This project allows the user to track and modify their companies roles, employees and departments tables within a MySQL database, and can be used directly in the command terminal',
             link: 'https://github.com/michalakisluke/Employee-Tracker'
         }
-    ]
+    ];
 
     return (
         <section>
-            {proj.map((title, description, link) => {
+            {proj.map((data) => {
                 <Project 
-                    title={title}
-                    description={description}
-                    link={link}
-                    key={title}
+                    title={data.title}
+                    description={data.description}
+                    link={data.link}
+                    key={data.title}
                 />
             })}
         </section>
