@@ -37,13 +37,14 @@ function Portfolio() {
 
     return (
         <section>
+
             {proj.map((data) => {
-                <Project 
-                    title={data.title}
-                    description={data.description}
-                    link={data.link}
-                    key={data.title}
-                />
+                return <Project 
+                        title={data.title}
+                        description={data.description}
+                        link={data.link}
+                        key={data.title}
+                    />
             })}
         </section>
     );
