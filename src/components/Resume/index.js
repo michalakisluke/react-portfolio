@@ -3,7 +3,9 @@ import resume from "../../assets/resume/resume.pdf";
 
 function Resume() {
     return(
-        <embed src={resume}/>
+        <section className="content-section" id="resume">
+            <embed src={resume}/>
+        </section>
     )
 }
 
