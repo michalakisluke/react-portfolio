@@ -23,8 +23,10 @@ function App() {
     {
       name: 'resume'
     },
-  ])
+  ]);
+
   const [currentNav, setCurrentNav] = useState(nav[0]);
+  
   return (
     <div>
       <Nav
