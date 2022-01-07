@@ -3,9 +3,9 @@ import React from "react";
 function Nav() {
     return(
         <header>
-        <h2>
-            Luke Michalakis
-        </h2>    
+            <h2>
+                Luke Michalakis
+            </h2>    
             <nav>
                 <ul>
                     <li>

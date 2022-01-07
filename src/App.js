@@ -12,8 +12,8 @@ function App() {
 
   return (
     <div>
+      <Nav></Nav>
       <main>
-        <Nav></Nav>
         <About></About>
         <Projects></Projects>
         <Contact></Contact>
