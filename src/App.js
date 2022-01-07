@@ -30,6 +30,9 @@ function App() {
       <Nav
         currentNav={currentNav}
         setCurrentNav={setCurrentNav}
+        style={isActive => ({
+          color: isActive ? "green": "blue"
+        })}
       ></Nav>
       <div>
         {

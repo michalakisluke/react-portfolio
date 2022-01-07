@@ -8,7 +8,7 @@ function Nav(props) {
     } = props;
 
     function displayNav() {
-        console.log(currentNav)
+        console.log(currentNav);
     };
 
     return(
