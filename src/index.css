@@ -144,6 +144,47 @@ header h2 {
 
 /* Style Contact */
 
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact h1 {
+  color: #28262C;
+}
+
+#input_email, #input_name, #input_message {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25vw;
+  color: #28262C;
+  font-weight: bold;
+  padding: 5px 0 5px 0;
+}
+
+#contact input {
+  width: 195px;
+  border-radius: 4px;
+}
+
+#contact textarea {
+  width: 197px;
+  border-radius: 4px;
+}
+
+#submit-contain {
+  text-align: center;
+}
+
+#contact button {
+  width: 25vw;
+  background-color: #F9DC5C;
+  color:#28262C;
+  border-radius: 12px;
+}
+
 /* Style Resume */
 
 #resume {

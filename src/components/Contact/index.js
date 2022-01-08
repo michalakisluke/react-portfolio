@@ -12,7 +12,7 @@ function Contact() {
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
             if (!isValid) {
-                setErrorMessage('Your email is invalid');
+                setErrorMessage('Your email is invalid, sorry!');
             } else {
                 setErrorMessage('');
             }
@@ -31,15 +31,15 @@ function Contact() {
         <section className="content-section" id="contact">
             <h1 data-testid="h1tag">Contact</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
+                <div id="input_name">
                     <label htmlFor="name">Name:</label>
                     <input type="text" defaultValue={name} onBlur={handleChange}  name="name"/>
                 </div>
-                <div>
+                <div id="input_email">
                     <label htmlFor="email">Email Address:</label>
                     <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
                 </div>
-                <div>
+                <div id="input_message">
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
                 </div>
@@ -48,7 +48,9 @@ function Contact() {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit" data-testid="submit-button">Submit</button>
+                <div id="submit-contain">
+                    <button type="submit" data-testid="submit-button">Submit</button>
+                </div>
             </form>
         </section>
     );
