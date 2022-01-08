@@ -201,6 +201,8 @@ header h2 {
   font-size: 24px;
   text-decoration: none;
   color: #28262C;
+  width: 170px;
+  text-align: center;
 }
 
 #footer a:hover {
