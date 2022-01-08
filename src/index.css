@@ -254,4 +254,136 @@ header h2 {
   color: #F9DC5C;
 }
 
+/*Media query for small screens*/
+@media screen and (max-width: 1024px) {  
+  .proj {
+    margin-top: 10px;
+    width: 80vw;
+    height: 551px;
+    display: block;
+    position: relative;
+  }
+  
+  .proj-link {
+    margin-top: 10px;
+    width: 80vw;
+    height: 551px;
+  }
+ 
+  .proj-link a {
+    width: 80vw;
+  }
+
+  #input_email, #input_name, #input_message {
+    width: 50vw;
+  }
+}
+
+/*Media query for tablet screens*/
+@media screen and (max-width: 768px) {
+  #about-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  #about-me img {
+    width: auto;
+    height: 400px; 
+    display: block;
+    margin: 10px 0 10px 30px;
+    border: 5px solid #28262C;
+    border-radius: 20px;
+  }
+
+  .proj-description {
+    background-color: rgba(2, 2, 2, 0.75 );
+    color: white;
+    width: fit-content;
+    justify-content: center;
+    position: absolute;
+    top: 375px;
+  }
+
+  #input_email, #input_name, #input_message {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+    color: #28262C;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+  }
+  
+  #contact input {
+    width: 195px;
+  }
+  
+  #contact textarea {
+    width: 197px;
+  }
+  
+  #submit-contain {
+    text-align: center;
+  }
+  
+  #contact button {
+    width: 50vw;
+  }
+}
+
+/*Media query for phone screens*/
+@media screen and (max-width: 575px) {
+  header {
+    justify-content: space-around;
+  }
+
+  #about-me img {
+    height: 400px; 
+    margin: 10px 0 0px 0px;
+  }
+
+  #about-me {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about-me-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90vw;
+    padding: 0px 0px 0px 0px;
+  }
+
+  #about-me-text p {
+    text-align: center;
+  }
+
+  .proj-description {
+    top: 350px;
+  }
+
+  #input_email, #input_name, #input_message {
+    width: 75vw;
+  }
+    
+  #contact button {
+    width: 75vw;
+  }
+
+  #resume p {
+    text-align: center;
+  }
+
+  #footer a {
+    padding: 0 0 0 10px;
+    font-size: 15px;
+    width: 100px;
+  }
+
+}
+
 

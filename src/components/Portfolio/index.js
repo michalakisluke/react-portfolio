@@ -36,7 +36,7 @@ function Portfolio() {
         },
         {
             title: 'GTHO v2 - Travel App',
-            description: "A full stack flight finder application, GTHO was refactored from it's original form to a fully comprehensive application in order to allow for a user to record and review their previously generated trips, while seeing how other users felt about the destination",
+            description: "GTHO was refactored from it's original form into a full stack application in order to allow for a user to record and review their previously generated trips, while seeing how other users felt about the destination",
             link: 'https://floating-wave-98179.herokuapp.com/',
             image: gtho
         },
