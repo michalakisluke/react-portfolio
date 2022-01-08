@@ -22,6 +22,8 @@ function App() {
         return <Resume />
       case 'portfolio':
         return <Portfolio />
+      default:
+        return <About />
     }
   };
 
@@ -30,9 +32,6 @@ function App() {
       <Nav
         currentNav={currentNav}
         setCurrentNav={setCurrentNav}
-        style={isActive => ({
-          color: isActive ? "green": "blue"
-        })}
       ></Nav>
       <div>
         {

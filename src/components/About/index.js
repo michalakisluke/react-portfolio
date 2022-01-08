@@ -8,7 +8,7 @@ function About() {
                 <img src={pic} alt="Luke enjoying tiramisu at Via Carota"/>
             </div>
             <div id="about-me-text">
-                <h2>About Me</h2>
+                <h2>Hi, It's Nice to Meet You!</h2>
                 <p>
                     My name is Luke Michalakis, and I am a web developer from Long Island - New York. 
                     After graduating from the University at Buffalo in 2019 with an Electrical Engineering degree, 
