@@ -29,16 +29,20 @@ function App() {
 
   return (
     <main>
-      <Nav
-        currentNav={currentNav}
-        setCurrentNav={setCurrentNav}
-      ></Nav>
-      <div>
-        {
-          pageRender(currentNav)
-        }
+      <div id="page-container">
+        <div id="content-wrap">
+          <Nav
+            currentNav={currentNav}
+            setCurrentNav={setCurrentNav}
+          ></Nav>
+          <div className="content">
+            {
+              pageRender(currentNav)
+            }
+          </div>
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </main>
   );
 }

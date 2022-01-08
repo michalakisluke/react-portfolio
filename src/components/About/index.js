@@ -12,9 +12,10 @@ function About() {
                 <p>
                     My name is Luke Michalakis, and I am a web developer from Long Island - New York. 
                     After graduating from the University at Buffalo in 2019 with an Electrical Engineering degree, 
-                    I worked for one of the largest contractors in North America, across many projects in the New York City 
-                    area. After a few years in construction, I realized I wanted to get back to what I enjoyed during college, 
-                    and began my journey to become a full stack web developer.
+                    I worked for one of the largest contractors in North America across many projects in the New York City 
+                    area, improving my project management and technical skills while working hands on with cutting edge electrical equipment. 
+                    After a few years in construction, I realized I wanted to get back to what I enjoyed during college, and began my journey 
+                    to become a full stack web developer.
                 </p>
             </div>
         </section>

@@ -13,6 +13,15 @@ code {
     monospace;
 }
 
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 35px;
+}
+
 /* Style header */
 
 header {
@@ -22,7 +31,6 @@ header {
   position: relative;
   align-items: center;
   background-color: #449DD1;
-  position: absolute;
   width: 100%;
   top: 0;
   left: 0;
@@ -55,7 +63,6 @@ header h2 {
 
 /* Style About Me */
 #about-me {
-  margin-top: 110px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -64,7 +71,7 @@ header h2 {
 
 #about-me img {
   width: auto;
-  height: 750px; 
+  height: 800px; 
   display: block;
   margin: 10px 0 10px 30px;
   border: 5px solid #28262C;
@@ -84,15 +91,15 @@ header h2 {
 
 /* Style Footer */
 #footer {
+  position: absolute;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   background-color: #449DD1;
-  position: relative;
   width: 100%;
+  height: 35px;
   bottom: 0;
-  left: 0;
   border-top: solid #F9DC5C;
 }
 
