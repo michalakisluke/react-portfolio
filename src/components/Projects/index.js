@@ -1,11 +1,18 @@
 import React from "react";
 
 function Projects(props) {
+    const divStyle = {
+        backgroundImage: `url(${props.image})`
+    };
+
     return(
-        <div className="sub-proj-link">
+        // fka main-proj-link
+        <div className="proj-link">
             <a href={props.link} target="_blank">
-                <section className="sub-proj">
-                    <div className="sub-proj-description">
+                {/* fka main */}
+                <section className="proj"  style={divStyle}>
+                    {/* fka main-proj-desc */}
+                    <div className="proj-description">
                         <h4>
                             {props.title}
                         </h4>
