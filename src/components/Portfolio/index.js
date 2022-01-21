@@ -6,6 +6,7 @@ import network from "../../assets/pictures/friends.jpg";
 import budget from "../../assets/pictures/budget.JPG";
 import gtho from "../../assets/pictures/gthov2.JPG";
 import employees from "../../assets/pictures/employees.jpg"
+import coins from "../../assets/pictures/coins.jpg"
 
 
 function Portfolio() {
@@ -35,10 +36,10 @@ function Portfolio() {
             image: budget
         },
         {
-            title: 'GTHO v2 - Travel App',
-            description: "GTHO was refactored from it's original form into a full stack application in order to allow for a user to record and review their previously generated trips, while seeing how other users felt about the destination",
-            link: 'https://floating-wave-98179.herokuapp.com/',
-            image: gtho
+            title: 'Determined',
+            description: "This application is a decision making platform that provides users with a simple fix for decision fatigue. The user can ask Determined which option they should choose, view their previous decisions, and rate and review that choice. ",
+            link: 'https://coin-flipski.herokuapp.com/',
+            image: coins
         },
         {
             title: 'Employee Tracker',
